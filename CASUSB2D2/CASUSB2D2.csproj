@@ -95,10 +95,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BUTTON.cs" />
+    <Compile Include="LED.cs" />
+    <Compile Include="LEDSTOPLICHT.cs" />
+    <Compile Include="LEDWEG.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SENSORDRUK.cs" />
+    <Compile Include="SENSORLICHT.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
